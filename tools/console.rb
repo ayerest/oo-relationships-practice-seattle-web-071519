@@ -88,6 +88,31 @@ character_four = Character.new("s", actor_three, movie_one)
 character_five = Character.new("Blah blah", actor_three, movie_three)
 
 
+#crowdfunding
+
+u1 = User.new("Bill")
+u2 = User.new("Stacey")
+u3 = User.new("Lacy")
+u4 = User.new("Jake")
+
+project1 = Project.new(500, u1)
+project2 = Project.new(50, u2)
+project3 = Project.new(5000, u4)
+project4 = Project.new(4999, u1)
+
+
+
+pledge1 = Pledge.new(4, u1, project1)
+pledge2 = Pledge.new(490, u2, project1)
+pledge3 = Pledge.new(7, u3, project1)
+pledge4 = Pledge.new(50, u2, project2)
+pledge5 = Pledge.new(50, u3, project2)
+pledge6 = Pledge.new(1000, u1, project3)
+pledge7 = Pledge.new(1001, u2, project3)
+pledge8 = Pledge.new(1, u3, project3)
+pledge9 = Pledge.new(1, u4, project3)
+
+
 
 
 
